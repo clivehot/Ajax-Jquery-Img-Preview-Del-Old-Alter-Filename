@@ -220,7 +220,7 @@ $(document).ready(function (e) {
                 // view uploaded file.
                 $("#preview").html(data);
 
-                //Used to delete a file that was accidently uploaded
+                //Used to delete a file that was accidently uploaded,the #img-name div comes upload.php file
                 var oldimagefile = $("#img-name").html();
                 //alert(oldimagefile);
                 $("#old-img").val(oldimagefile);
